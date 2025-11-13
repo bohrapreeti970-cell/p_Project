@@ -106,7 +106,7 @@ def login_form():
             role = st.selectbox("Login as", ["user", "admin"])
             submitted = st.form_submit_button("Login")
         with col2:
-            st.write("
+            st.write("Welcome to the Travel Booking App 🌍
 ")
             st.info("Tip: default admin -> username: admin | password: admin123")
     if submitted:
